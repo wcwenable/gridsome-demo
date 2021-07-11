@@ -42,7 +42,6 @@ query ($path: String!) {
 
 <script>
 import JournalContent from "@/components/JournalContent"
-
 export default {
   components: {
     JournalContent
@@ -51,7 +50,7 @@ export default {
     return {
       title: this.$page.post.title
     }
-  }
+  },
 }
 </script>
 
